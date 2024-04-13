@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="font-jost">
+    <div class="flex h-screen">
+      <img
+        class="w-1/2 hidden lg:block object-cover"
+        src="https://img.freepik.com/free-photo/man-sitting-stairs-side-view_23-2149652110.jpg?t=st=1713011669~exp=1713015269~hmac=d22d3106ba1bc539129a548b7e0ce6005eb4befc82285c7b639f759fd9d0f17e&w=1060"
+        alt="creadit: pexels"
+      />
+
+      <div class="flex flex-col justify-center items-center w-full lg:w-1/2">
+        <div>
+          <div class="text-xl text-center font-bold lg:text-left">
+            <span class="text-green-600">&#9650;</span>
+            <span>OskiDev</span>
+          </div>
+          <div class="text-3xl text-center font-bold lg:text-left mt-3">
+            <h2>Hello,</h2>
+            <h2>welcome Back</h2>
+          </div>
+
+          <!--Login form-->
+
+          <form action="" class="mt-6 w-[80%] lg:w-96 mx-auto space-y-4">
+            <h4>Login to manage your account</h4>
+            <input
+              class="border w-full px-4 py-2"
+              type="text"
+              placeholder="Email"
+            />
+
+            <input
+              class="border w-full px-4 py-2"
+              type="password"
+              placeholder="Password"
+            />
+            <div class="text-blue-600 cursor-pointer hover:text-blue-400">
+              Forgot your password ?
+            </div>
+            <button
+              class="w-full bg-gradient-to-l from-green-600 to-blue-500 text-white rounded py-2 font-bold hover:from-blue-500 hover:to-blue-400 transform hover:scale-105 transition ease-out duration-300"
+            >
+              Login
+            </button>
+          </form>
+        </div>
+        <div class="text-center space-y-4 flex flex-col mt-4">
+          <p>OR</p>
+          <div class="flex justify-center items-center gap-8">
+            <i class="fa-brands fa-facebook text-2xl cursor-pointer"></i>
+            <i class="fa-brands fa-google text-2xl cursor-pointer"></i>
+            <i class="fa-brands fa-instagram text-2xl cursor-pointer"></i>
+          </div>
+          <p class="text-sm mt-4 text-center">
+            don't have an account?
+            <span class="text-blue-600 hover:text-blue-400">Sign up</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
